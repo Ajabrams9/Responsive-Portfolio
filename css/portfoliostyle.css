@@ -1,0 +1,146 @@
+/* Style the entire body */
+
+body {
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
+/* Style the navigation bar! */
+
+nav {
+    background-color: #D8D8D8;
+    overflow: auto;
+}
+
+ul {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+
+h1 {
+    margin-left: 11%;
+    height: 30px;
+    float: left;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+/* Style the Section */
+
+.main {
+    width: 100%;
+    padding-left: 10%;
+}
+
+h2 {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+/* Style the image */
+
+
+
+
+
+/* Style the footer */
+
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.break1, .break2 {
+    display: none;
+}
+
+img {
+    height: 125px;
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url('../img/shattered.png');
+      }
+
+    .main {
+        width: 75%;
+    
+    }
+
+    #one {
+        display: block;
+    }
+
+   .break1 {
+       display: inline-block;
+   }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    ul {
+        float: left;
+        margin-left: 8%;
+    }
+
+    #one, #two, #three {
+        width: 100%;
+        height: 100%
+    }
+
+    #two {
+        display: block;
+    }
+
+    .break2 {
+        display: inline-block;
+    }
+
+    h1 {
+        margin: auto;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+    
+
+}
