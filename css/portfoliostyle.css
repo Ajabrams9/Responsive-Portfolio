@@ -130,7 +130,8 @@ img {
     }
 
     h1 {
-        margin: auto;
+        margin: 0;
+        width: 100%;
     }
 
     li {
@@ -141,6 +142,8 @@ img {
         margin-left: 0;
     }
 
-    
+    nav {
+        overflow: hidden;
+    }
 
 }
